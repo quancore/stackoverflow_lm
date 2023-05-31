@@ -20,4 +20,8 @@ This is a multilabel classification prototype on assigning correct labels to Sta
 
 ## Steps to reproduce the results and running notebooks
 1. Download the dataset from the above URL, create a folder called ``datasets`` and unpack the downloaded dataset. There should be 3 CSV files.
-2. Setup Conda environment using ``environment.yml`` file provided, register the environment to Jupyter and select the environment while running notebooks.
+2. Setup Conda environment using ``environment.yml`` file provided.
+3. Register the environment to Jupyter and select the environment while running notebooks.
+```bash
+ python -m ipykernel install --user --name stackoverflow
+```
